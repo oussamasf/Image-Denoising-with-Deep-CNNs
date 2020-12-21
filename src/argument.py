@@ -38,7 +38,7 @@ class Args():
     '''
 
     def __init__(self):
-        self.root_dir = '/content/dataset/BSDS300/images'
+        self.root_dir = '/content/BSDS300/images'
         self.output_dir = '../checkpoints/'
         self.num_epochs = 200
         self.D = 6
